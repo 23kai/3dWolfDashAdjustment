@@ -96,9 +96,9 @@ void CONTAINER::setdata() {
 	Data.option.LineColor = GetColor(255, 255, 255);
 	Data.option.CircleColor = GetColor(0, 100, 200);
 	//システム関連
-	Data.system.SensitivityX = 1;
-	Data.system.SensitivityY = 1;
-	Data.system.MouseSensitivity = 1;
+	Data.system.SensitivityX = 0;
+	Data.system.SensitivityY = 0;
+	Data.system.MouseSensitivity = 0;
 	Data.system.K = 0;
 
 	Data.option.FontColor = GetColor(255, 255, 255);
