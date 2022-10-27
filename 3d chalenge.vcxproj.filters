@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{9015ecad-bb5d-4dc2-a45e-381423b40dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\base">
+      <UniqueIdentifier>{253d9aa2-1da3-490e-b4c5-5e72e0724e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container">
+      <UniqueIdentifier>{e01935c7-2042-499f-93d2-8be2a5546d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="basis">
+      <UniqueIdentifier>{914182c8-85f7-4d2d-9427-308f6b9463f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{f8130ff8-43c5-4975-ad6b-3bc4b3a02ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ObjectBase">
+      <UniqueIdentifier>{03f1de28-1bbd-4608-9d19-890ea4e57bfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SCENE.cpp">
+      <Filter>Scenes\base</Filter>
+    </ClCompile>
+    <ClCompile Include="TITLE.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME.cpp">
+      <Filter>basis</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_OBJECT.cpp">
+      <Filter>basis</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>basis</Filter>
+    </ClCompile>
+    <ClCompile Include="CONTAINER.cpp">
+      <Filter>Container</Filter>
+    </ClCompile>
+    <ClCompile Include="STAGE.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SYSTEM.cpp" />
+    <ClCompile Include="CAMERA.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CUBE.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FIELD.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJECTS.cpp">
+      <Filter>Object\ObjectBase</Filter>
+    </ClCompile>
+    <ClCompile Include="LINE.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="COLLISION.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="WOLF.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_OVER.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="OPTION.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SCENE.h">
+      <Filter>Scenes\base</Filter>
+    </ClInclude>
+    <ClInclude Include="TITLE.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME.h">
+      <Filter>basis</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_OBJECT.h">
+      <Filter>basis</Filter>
+    </ClInclude>
+    <ClInclude Include="CONTAINER.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="STAGE.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SYSTEM.h" />
+    <ClInclude Include="CAMERA.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CUBE.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FIELD.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJECTS.h">
+      <Filter>Object\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="LINE.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="COLLISION.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="WOLF.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_OVER.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="OPTION.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
